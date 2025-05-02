@@ -1,0 +1,19 @@
+{
+  "name": "asehw6",
+  "version": "1.0.0",
+  "description": "## Overview This Node.js application reads plaintext email-password pairs from `password.txt`, hashes the passwords using SHA-256, stores them in MongoDB, and validates login attempts securely.",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.14.1"
+  }
+}
